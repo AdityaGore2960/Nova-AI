@@ -1,0 +1,55 @@
+# =============================================================================
+# Nova-AI — ai/ service .gitignore  (Python / FastAPI)
+# =============================================================================
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+pip-log.txt
+
+# OS
+.DS_Store
+Thumbs.db
